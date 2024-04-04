@@ -1,11 +1,32 @@
 
-
+import time
 def end1():
+          print("you suck at spelling, go back to kindergarden.")
+          print("i dont wanna talk to you anymore you iliterate imbecile.")
           print("bye")
           print("You can no longer continue this conversation, for you have been forsaken by Panda the bot.")
           print("Maybe God will have mercy on you, you poor soul.")
 
-import time 
+def face():
+ print("WARNING IF YOU INTERFERE WITH THIS FOLLOWING MESSAGE YOU WILL CORRUPT YOUR COMPUTER. YOU HAVE BEEN WARNED ")
+ print("⠀⠀⠀⠀⣀⡤⠴⠶⠲⠦⢤⣀⠀⠀⠀⠀⠀")
+ time.sleep(5)
+ print("⠀⠀⢠⠞⠉⠀⠀⠀⠀⠀⠀⠉⠳⡄⠀⠀⠀")
+ time.sleep(3)
+ print("⠀⢠⠏⠀⠀⣤⡄⠀⠀⢠⣤⠀⠀⠹⡆⠀⠀")
+ time.sleep(3)
+ print("⠀⣾⠀⠀⠀⠉⠁⠀⠀⠈⠉⠀⠀⠀⣷⠀⠀")
+ time.sleep(.005)
+ print("⠀⢻⠀⠀⠘⣆⠀⠀⠀⠀⣰⠇⠀⠀⡟⠀⠀")
+ time.sleep(.005)
+ print("⠀⠘⣧⠀⠀⠈⠓⠶⠴⠚⠁⠀⠀⣰⠃⠀⠀")
+ time.sleep(0.005)
+ print("⠀⠀⠈⠳⣄⡀⠀⠀⠀⠀⢀⣠⠞⠁⠀⠀")
+ time.sleep(0.005)
+ print("⠀⠀⠀⠀⠀⠉⠛⠒⠒⠚⠉⠁⠀⠀⠀⠀⠀")
+ end1()
+
+ 
 z = input("Hello world! Please type here: ")
 if z == "hi":
     x = input("How are you?: ")
@@ -14,10 +35,7 @@ if z == "hi":
         if c == "uh":
               n = input("Are You Human?: ")
               if n == "i dont know" or "i dont know man leave me alone" or "idk ":
-                  art = open("art.txt", "r")
-               
-                  print(art)
-
+                face()
         elif c == "no":
             print ("are you human?: ")
             for i in range(1000):
